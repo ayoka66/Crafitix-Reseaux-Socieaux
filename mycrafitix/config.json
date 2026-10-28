@@ -1,0 +1,34 @@
+{
+  "profile": {
+    "name": "MYCRAFITIX",
+    "avatar": "assets/avatar.webp",
+    "statusText": "En ligne",
+    "statusOn": true
+  },
+  "links": [
+    { "id": "tiktok",  "label": "TikTok",  "url": "https://www.tiktok.com/@mycrafitix", "icon": "tiktok",  "color": "#161618", "visible": true },
+    { "id": "discord", "label": "Discord", "url": "https://discord.gg/B8WE8nm4Wt",      "icon": "discord", "color": "#5865f2", "visible": true },
+    { "id": "twitch",  "label": "Twitch",  "url": "https://www.twitch.tv/mycrafitixtw", "icon": "twitch",  "color": "#9146ff", "visible": true }
+  ],
+  "gta": {
+    "enabled": true,
+    "title": "Los Santos · GTA V RP",
+    "server": "",
+    "character": "",
+    "job": "",
+    "crew": "",
+    "wanted": 0,
+    "tags": ["GTA V", "FiveM", "Los Santos"],
+    "note": "",
+    "joinLabel": "",
+    "joinUrl": ""
+  },
+  "engine": {
+    "enabled": true,
+    "volume": 55,
+    "autoplay": false
+  },
+  "footer": { "text": "MYCRAFITIX" },
+  "security": { "hash": "eaf39c50feb9396e4ae291da229b8edfd394a26b7aae1362895537b20424b9b4" },
+  "botSecurity": { "hash": "d8d26e820ef94db09c3592a56a89ca2260739b0f642402b89cbcfbac4bd2526e" }
+}

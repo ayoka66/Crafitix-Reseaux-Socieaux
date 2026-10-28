@@ -1,0 +1,27 @@
+{
+  "guildName": "",
+  "welcome": {
+    "enabled": false,
+    "channelId": "",
+    "message": "Bienvenue {user} sur le serveur !",
+    "autoRoleId": ""
+  },
+  "leveling": {
+    "enabled": false,
+    "xpPerMessage": 5,
+    "levelUpMessage": "GG {user}, tu passes niveau {level} !"
+  },
+  "automod": {
+    "enabled": false,
+    "bannedWords": [],
+    "antiInvite": true,
+    "antiSpam": true,
+    "maxMentions": 5,
+    "warnMessage": "Merci de respecter le règlement du serveur.",
+    "logChannelId": ""
+  },
+  "announce": {
+    "channelId": "",
+    "lastMessage": ""
+  }
+}

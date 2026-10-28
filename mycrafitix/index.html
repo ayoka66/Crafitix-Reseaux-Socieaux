@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>MyCrafitix</title>
+  <meta name="description" content="Retrouve MyCrafitix sur tous ses réseaux.">
+  <meta name="theme-color" content="#000000">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+
+  <div class="engine" id="engine">
+    <button class="engine-btn" id="engine-toggle" type="button" aria-label="Lancer le son du moteur" aria-pressed="false">
+      <svg class="ic-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      <svg class="ic-pause" viewBox="0 0 24 24" fill="currentColor" hidden><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+    </button>
+    <input class="engine-vol" id="engine-vol" type="range" min="0" max="100" value="55" aria-label="Volume du moteur">
+    <button class="engine-btn sm" id="engine-mute" type="button" aria-label="Couper le son" aria-pressed="false">
+      <svg class="ic-snd" viewBox="0 0 24 24" fill="currentColor"><path d="M4 9v6h4l5 5V4L8 9H4z"/></svg>
+      <svg class="ic-mute" viewBox="0 0 24 24" fill="currentColor" hidden><path d="M4 9v6h4l5 5V4L8 9H4zm13.5 3L20 9.5l-1-1L16.5 11 14 8.5l-1 1 2.5 2.5L13 14.5l1 1 2.5-2.5 2.5 2.5 1-1z"/></svg>
+    </button>
+  </div>
+
+  <main class="page">
+    <header class="profile">
+      <div class="avatar" id="avatar"></div>
+      <h1 id="name">MyCrafitix</h1>
+      <p class="status" id="status"><span class="dot"></span><span id="status-text">En ligne</span></p>
+    </header>
+
+    <nav class="links" id="links" aria-label="Réseaux sociaux"></nav>
+
+    <section class="gta" id="gta" hidden aria-label="Univers GTA V"></section>
+
+    <footer>
+      <button class="copy" id="footer-btn" type="button"></button>
+    </footer>
+  </main>
+
+  <script src="js/config.js" defer></script>
+  <script src="js/particles.js" defer></script>
+  <script src="js/engine-sound.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/admin.js" defer></script>
+  <script src="js/bot-admin.js" defer></script>
+</body>
+</html>
